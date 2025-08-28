@@ -1,0 +1,25 @@
+defaults:
+  - scope:
+      path: "images"
+    values:
+      image: true
+  - scope:
+      path: "assets/css"
+    values:
+      css: true
+  - scope:
+      path: "assets/webfonts"
+    values:
+      font: true
+  - scope:
+      path: "assets/js"
+    values:
+      javascript: true
+  - scope:
+      path: "assets/sass"
+    values:
+      sass: true
+  - scope:
+      path: "assets"
+    values:
+      base: true
